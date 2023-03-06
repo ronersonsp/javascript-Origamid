@@ -1,0 +1,17 @@
+@import './global/cores.css';
+@import './global/global.css';
+@import './global/utilidades.css';
+@import './conteudo/header.css';
+@import './conteudo/animais.css';
+@import './conteudo/faq.css';
+@import './conteudo/contato.css';
+@import './conteudo/footer.css';
+@import './interacoes/modal.css';
+@import './interacoes/tooltip.css';
+@import './interacoes/dropdown-menu.css';
+@import './interacoes/menu-mobile.css';
+@import './interacoes/numeros.css';
+@import './interacoes/horario.css';
+
+
+
