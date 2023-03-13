@@ -41,11 +41,18 @@
   animation: slideDown .5s forwards;
 }
 [data-anime="accordion"] dt::after{
-  content: "⮯";
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url('../../img/arrow-red.svg') center center no-repeat;
   margin-left: 10px;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
 }
 [data-anime="accordion"] dt.ativo::after{
-  content: "⮭";
+  content: "";
+  transform: rotate(-90deg);
 }
 
 @keyframes slideDown{
